@@ -1,0 +1,450 @@
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/** Regular */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../font/leaguegothic-regular-webfont.eot');
+    src: url('../font/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/leaguegothic-regular-webfont.woff') format('woff'),
+    url('../font/leaguegothic-regular-webfont.ttf') format('truetype'),
+    url('../font/leaguegothic-regular-webfont.svg#league_gothic_italicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@FONT-FACE {
+    font-family: "Myriad Pro Semibold";
+    src: url(../font/MyriadPro-Semibold.otf);
+}
+
+body {
+    min-width: 1122px;
+    line-height: 1.4;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #999999;
+    font-size: 14px;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.line{
+    background:#484848;
+}
+h1,h2,h3{
+    /*font-family: "Myriad Pro Semibold";*/
+}
+
+h1{
+    font-size: 45px;
+    color: #474747;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #46a7ec;
+}
+
+h3{
+    font-size: 17px;
+}
+
+a {
+    color: #93c8f0;
+}
+
+input {
+    background: #373737;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    height: 24px;
+    padding-left: 10px;
+}
+
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+header{
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+header a{
+    text-decoration: none;
+    color: #484848;
+    text-align: center;
+}
+
+/*top*/
+.top {
+    background:#484848;
+    color: #919191;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.top:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+nav{
+    float: left;
+}
+
+.top nav li{
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #919191;
+}
+.header-search{
+    float: right;
+}
+
+.header-search span{
+    margin-right: 10px;
+}
+
+.go{
+    background: red;
+    border-radius: 3px;
+    color: #fefefc;
+    width: 33px;
+    padding-left: 6px;
+}
+/*logo*/
+.logo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*header-footer*/
+.header-footer{
+    background: #dbdbdb;
+    color: #000000;
+    height:44px;
+    border-radius: 3px;
+}
+
+.header-footer li{
+    float: left;
+    display: inline-block;
+    height: 44px;
+    border-right: 1px solid #ededed;
+
+}
+
+.header-footer li a{
+    margin-right: 23px;
+    margin-left: 23px;
+    margin-top: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.header-footer .header-form {
+    float: right;
+    margin-top: 7px;
+    background: #000000;
+    height: 31px;
+    margin-right: 3px;
+
+}
+
+.header-form{
+    border-radius: 3px;
+}
+
+.header-form form{
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    border-radius: 3px;
+
+}
+
+.header-form[type=text]{
+    float: left;
+}
+
+.search{
+   background: url("../img/search.png") no-repeat;
+   border: none;
+   width: 20px;
+   position: relative;
+   height: 17px;
+   top: 2px;
+}
+/*end top*/
+
+/*container-top*/
+
+.container{
+    margin-top: 25px;
+}
+
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container-top:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.block-left{
+    float: left;
+    padding-left: 10px;
+}
+
+.block-right{
+    padding-left: 600px;
+}
+
+.block-right img{
+    display: inline-block;
+    width:450px;
+    height: 350px;
+    float: right;
+    margin-top: 30px;
+}
+.text{
+    color: #ed4447;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.list > li{
+    padding-left: 30px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.list > li:before {
+    content: '●';
+    position: absolute;
+    margin-left: -18px;
+    color: #44a6ed;
+}
+/* End container-top*/
+.delimiter {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.delimiter:after {
+    content: '';
+    border-bottom: 1px dashed black;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+/* container-product*/
+.container-products{
+    margin-top: 40px;
+}
+.container-products h1{
+    margin-bottom: 30px;
+}
+.wrap-product{
+    text-align: justify;
+}
+
+.wrap-product:after {
+    width: 100%;
+    content: '';
+    display: inline-block;
+}
+
+.container-products:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.product{
+    /*border: 1px solid #484848;*/
+    display: inline-block;
+    border: 1px solid #ededed;
+    width:220px;
+    height: 120px;
+    border-radius: 3px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+
+    /*float: left;*/
+}
+.product .product-description > p {
+    width: 75%;
+    text-align: left;
+}
+
+.product-description{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.product-description h3{
+    color: #44a6ed;
+    margin-bottom: 18px;
+    width: 80%;
+    text-align:left;
+}
+.product-description img {
+    position: absolute;
+    left: 70%;
+    top: 15px;
+}
+
+/*container-blog*/
+.container-blog{
+    margin-top: 40px;
+}
+
+.container-blog img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container-blog:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container-blog h1{
+    margin-top: 30px;
+}
+
+.footer-top{
+    overflow: hidden;
+}
+
+.col {
+    margin-top: 35px;
+    float: left;
+    width: 50%;
+    margin-bottom: 35px;
+}
+
+.col-left{
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.col-right{
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.col:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* End container-product*/
+/*footer-top*/
+.col > h1{
+    margin-bottom: 30px;
+}
+/*End footer-top*/
+.footer-top li p{
+    margin-bottom: 13px;
+}
+
+.footer-top li{
+    margin-bottom: 13px;
+}
+
+.col-left p{
+    margin-bottom: 20px;
+}
+/*footer-footer*/
+
+footer > .footer-footer{
+    background: #484848;
+    color: #989898;
+    overflow: hidden;
+}
+.footer-footer > p {
+    float: left;
+    margin-top: 28px;
+}
+
+.footer-footer .social-network{
+    float:right;
+}
+.footer-footer a{
+    color: #999999;
+}
+
+.meta{
+    margin-bottom: 10px;
+}
+
+.term{
+    text-decoration: underline;
+}
+
+.social-network img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
