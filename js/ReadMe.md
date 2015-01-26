@@ -1,2 +1,1 @@
-Секундомер
-Использовал: bootstrap and js
+Java Script 
