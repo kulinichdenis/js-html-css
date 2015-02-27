@@ -1,11 +1,10 @@
-Use: js and bootstrap
+Used: JS and Bootstrap
 Description:
-Нажатие на кнопку "стоп" останавливает ход секундомера. 
-Кнопка "круг" добавляет текущее значение секундомера в список результатов. 
-Элементы из списка результатов можно удалять поштучно. 
-Кнопка "сброс" останавливает секундомер, если тот бежит, сбрасывает значение в нули, убирает все результаты, 
-если такие есть. 
-"круг" работает одинаково для остановленного и запущенного секундомеров.
-Управление с клавиатуры: s - start/stop, l - lap, r - reset. 
-Если на странице несколько секундомеров, с клавиатуры управляется тот, 
-над последним из которых находилась мышка. 
+
+Press "Stop" stop Timer.
+Press "Lap" add value to the result. 
+Can remove one element of the result. 
+Press "Reset" stop Timer and the result set to zero and delete all the result's elements. 
+Press "" stop or start Timer.
+Control from keyboard: s - start/stop, l - lap, r - reset. 
+
