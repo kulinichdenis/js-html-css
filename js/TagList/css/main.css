@@ -1,0 +1,23 @@
+#outer{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#target > div{
+    background: #999999;
+    display:inline-block;
+    margin-right: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #f5f5f5;
+    font-size: 20px;
+}
+div .close{
+    margin-left: 3px;
+    background: #f5f5f5;
+    margin-top: 5px;
+}
+.inputBox .form-control{
+    width: 50%;
+    float: left;
+}
