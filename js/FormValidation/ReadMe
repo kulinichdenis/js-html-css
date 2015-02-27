@@ -1,1 +1,6 @@
-Description
+Used: Ajax, JS, Bootstrap, RegExp
+Description:
+1. Check:
+    - filled in all required fields
+    - the user entered a valid Email, City, Phone.
+2. Button "Send" disable if one of required fields with error  
