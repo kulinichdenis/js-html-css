@@ -1,1 +1,5 @@
-Description
+Used: Jquery, Bootstrap, JS
+Description:
+Widget has two mode: "edit" and "show"
+In the mode 'Show': only show tags.
+In the mode 'Edit': add only unique tags, delete tags or delete all tags.
