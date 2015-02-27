@@ -1,3 +1,7 @@
 .alert {
 	margin-top: 5px;
 }
+
+.alert-danger{
+     display: none;
+ }
