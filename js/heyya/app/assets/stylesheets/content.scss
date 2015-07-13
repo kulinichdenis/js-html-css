@@ -1,0 +1,157 @@
+.content {
+  overflow: hidden;
+
+
+  .wrapper-content {
+    margin: 0 auto;
+    width: 600px;
+
+    .slider {
+      width: 46%;
+      height: 500px;
+    }
+
+    .header-text,
+    .middle-text,
+    ul {
+      width: 54%;
+    }
+
+    .header-text {
+      margin-top: 20px;
+      font-weight: 300;
+      font-size: 55px;
+      line-height: 55px;
+    }
+
+    .middle-text {
+      margin: 20px 0px;
+      font-weight: 600;
+      font-size: 25px;
+    }
+
+    ul {
+      padding-left: 0px;
+
+      li {
+        list-style: none;
+        font-size: 20px;
+
+        &:before {
+          content: '\2022';
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 620px){
+  .content {
+    .wrapper-content{
+
+      .slider {
+        width: 40%;
+      }
+
+      .header-text,
+      .middle-text,
+      ul {
+        padding-right: 18%;
+        width: 60%;
+      }
+
+      .header-text {
+        font-size: 44px;
+        line-height: 44px;
+      }
+
+      .middle-text {
+        font-size: 20px;
+      }
+
+      ul{
+        li{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 510px){
+  .content {
+    .wrapper-content{
+      width: 270px;
+
+      .slider,
+      .header-text,
+      .middle-text,
+      ul {
+        width: 100%;
+        padding-right: 0%;
+      }
+
+      .header-text {
+        font-size: 44px;
+        line-height: 44px;
+        text-align:center;
+      }
+
+      .middle-text {
+        font-size: 20px;
+      }
+
+      ul{
+        li{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+
+// @media(max-width:481px){
+//     .content-text {
+//       width: auto;
+
+//       .header-text {
+//         font-size: 30px;
+//         line-height: 40px;
+//       }
+
+//       .middle-text {
+//         font-size: 24px;
+//       }
+
+//       ul {
+//         li {
+//           font-size: 19px;
+//         }
+//       }
+//     }
+// }
+
+@media(max-width:311px){
+  // .content{
+  //   .content-text {
+  //     .middle-text {
+  //       font-size: 24px;
+  //     }
+
+  //     ul {
+  //       li {
+  //         font-size: 19px;
+  //       }
+  //     }
+  //   }
+  //   .header-text {
+  //       font-size: 30px;
+  //       line-height: 40px;
+  //     }
+  //   .slider {
+
+  //   }
+  // }
+}
+

@@ -1,0 +1,41 @@
+header {
+  margin-top: 10px;
+  margin-left: 110px;
+  margin-right: 25px;
+  margin-bottom: 40px;
+
+  .logo {
+    font-size: 50px;
+  }
+
+  .app-store {
+    position: relative;
+    top: 16px;
+  }
+}
+
+@media(max-width:447px){
+  header {
+    text-align: center;
+    margin-left: 55px;
+
+    .pull-right {
+      float: none !important;
+    }
+
+    .pull-left {
+       float: none !important;
+    }
+
+    .app-store {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width:400px) {
+  .image-logo {
+    display: block;
+  }
+}
+

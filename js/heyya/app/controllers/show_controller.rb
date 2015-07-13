@@ -1,0 +1,3 @@
+class ShowController < ApplicationController
+
+end

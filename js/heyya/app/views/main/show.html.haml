@@ -1,0 +1,48 @@
+%script{:src => "https://hammerjs.github.io/dist/hammer.js"}
+.logo-image
+  = image_tag 'logo.png';
+.sidebar
+  .list
+    = link_to request.original_url do
+      .list-item
+        About
+    = link_to request.original_url do
+      .list-item
+        Privacy
+    = link_to  request.original_url do
+      .list-item
+        Terms
+    = link_to request.original_url do
+      .list-item
+        Contact
+.content
+  .container-fluid
+    .row
+      .col-md-12
+        = render 'header'
+    .wrapper-content.clearfix
+      .header-text.pull-right
+        The ultimate anonymous photo chat
+      .slider.pull-left
+        #carousel-example-generic.carousel.slide.pull-right{"data-ride" => "carousel"}
+          .carousel-inner{:role => "listbox"}
+            .item.active
+              = image_tag('iphone.png', alt: "text")
+            .item
+              = image_tag('iphone_1.png', alt: "text")
+          %br
+          %br
+          %br
+          %ol.carousel-indicators
+            %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+            %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+      .middle-text.pull-right
+        Nom de votre feature avec une phrase accrocheuse !
+      %ul.pull-right
+        %li
+          Detail 1 de la feature expliquee en une phrase simple
+        %li
+          Detail 1 de la feature expliquee en une phrase simple
+%br
+%br
+%br
